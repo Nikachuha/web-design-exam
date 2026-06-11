@@ -1,0 +1,44 @@
+{
+    "2026-06-15": [
+        {
+            "time":"18:00",
+            "teacher":"Анна",
+            "style":"Hip-Hop",
+            "available":true
+        },
+
+        {
+            "time":"19:00",
+            "teacher":"Анна",
+            "style":"Hip-Hop",
+            "available":false
+        },
+
+        {
+            "time":"20:00",
+            "teacher":"Мария",
+            "style":"Contemporary",
+            "available":true
+        }
+    ],
+
+
+    "2026-06-16": [
+
+        {
+            "time":"17:00",
+            "teacher":"Мария",
+            "style":"Stretching",
+            "available":true
+        },
+
+        {
+            "time":"18:30",
+            "teacher":"Анна",
+            "style":"Hip-Hop",
+            "available":true
+        }
+
+    ]
+
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Запись на занятие</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/booking.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+<a href="index.html" class="logo">
+Dance Studio
+</a>
+
+
+<nav class="nav">
+
+<a href="index.html">
+Главная
+</a>
+
+<a href="booking.html">
+Записаться
+</a>
+
+<a href="profile.html">
+Мои занятия
+</a>
+
+
+</nav>
+
+
+</header>
+
+
+
+<main class="booking">
+
+
+<h1>
+Запись на занятие
+</h1>
+
+
+
+<section class="booking-form">
+
+
+<div class="form-group">
+
+<label>
+Направление
+</label>
+
+
+<select id="styleSelect">
+
+<option value="Hip-Hop">
+Hip-Hop
+</option>
+
+<option value="Contemporary">
+Contemporary
+</option>
+
+<option value="Stretching">
+Stretching
+</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+<div class="form-group">
+
+
+<label>
+Преподаватель
+</label>
+
+
+<select id="teacherSelect">
+
+
+<option value="Анна">
+Анна
+</option>
+
+
+<option value="Мария">
+Мария
+</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="calendar-container">
+
+
+<h2>
+Выберите дату
+</h2>
+
+
+<div id="calendar"></div>
+
+
+</div>
+
+
+
+
+
+<div class="times">
+
+
+<h2>
+Доступное время
+</h2>
+
+
+<div id="timeList">
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="user-data">
+
+
+<h2>
+Ваши данные
+</h2>
+
+
+
+<input 
+id="name"
+type="text"
+placeholder="Имя">
+
+
+<input 
+id="phone"
+type="tel"
+placeholder="Телефон">
+
+
+<button id="bookButton">
+
+Забронировать
+
+</button>
+
+
+
+</div>
+
+
+
+</section>
+
+
+</main>
+
+
+
+<script type="module" src="js/booking.js"></script>
+
+
+</body>
+
+</html>

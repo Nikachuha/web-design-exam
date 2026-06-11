@@ -1,0 +1,71 @@
+.profile {
+
+padding:70px 10%;
+
+}
+
+
+
+.profile h1 {
+
+font-size:45px;
+
+margin-bottom:40px;
+
+}
+
+
+
+.booking-card {
+
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+margin-bottom:20px;
+
+max-width:500px;
+
+
+}
+
+
+
+.booking-card h3 {
+
+margin-bottom:15px;
+
+}
+
+
+
+.booking-card p {
+
+margin:8px 0;
+
+}
+
+
+
+.delete {
+
+
+margin-top:15px;
+
+padding:10px 20px;
+
+border:none;
+
+border-radius:20px;
+
+background:#d66ba0;
+
+color:white;
+
+cursor:pointer;
+
+
+}
